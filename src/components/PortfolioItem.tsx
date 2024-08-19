@@ -1,6 +1,12 @@
+interface PortfolioItemProps {
+    title: string;
+    imgUrl: string;
+    description: string;
+    stack: string[];
+    link: string;
+}
 
-
-function PortfolioItem({title, imgUrl, description, stack, link}) {
+function PortfolioItem({title, imgUrl, description, stack}: PortfolioItemProps) {
     return (
         <div className="border-2 border-stone-900 rounded-md overflow-hidden">
             <img
@@ -14,7 +20,7 @@ function PortfolioItem({title, imgUrl, description, stack, link}) {
                     {description}
                 </p>
                 <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs">
-                    {stack.map(item => (
+                    {stack.map((item: string) => (
                         <span className="inline-block px-3 py-1 font-semibold border-2 border-stone-900 rounded-md">
                             {item}
                         </span>

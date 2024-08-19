@@ -14,8 +14,9 @@ export default [
         link: "https://interactive-funny-blocks.web.app",
     },
     {
-        title: "",
+        title: "Tiktaktoe",
         imgUrl: "",
+        description: "I had a lot of fun with this project. I was my first real one",
         stack: ["html", "CSS", "Javascript"],
         link: "",
     }
