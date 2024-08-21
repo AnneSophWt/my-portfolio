@@ -6,7 +6,7 @@ interface PortfolioItemProps {
     link: string;
 }
 
-function PortfolioItem({title, imgUrl, description, stack}: PortfolioItemProps) {
+function PortfolioItem({title, imgUrl, description, stack,}: PortfolioItemProps) {
     return (
         <div className="border-2 border-stone-900 rounded-md overflow-hidden">
             <img
