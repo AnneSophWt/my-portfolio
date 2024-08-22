@@ -3,9 +3,8 @@ import Title from "./Title";
 
 function Intro() {
     return (
-        <div className="flex items-center
-        justify-center flex-col text-center pt-20
-        pb-6">
+        <div id="intro"
+        className="flex items-center justify-center flex-col text-center pt-20 pb-6">
             <h1 className="text-4xl md:text-5xl mb-1 md:mb-3 font-bold">Welcome to My Page 💞</h1>
             <h2 className="text-md max-w-xl mb-6 font-bold">私のサイトにようこそ！</h2>
              <div className="w-35 h-35 md: w-32 rounded-xl overflow-hidden mb-4 shadow-lg">
