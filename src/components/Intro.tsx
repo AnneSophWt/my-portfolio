@@ -27,6 +27,9 @@ function Intro() {
                 </a>{' '}
                 so feel free to check them out! {' '}
             </p>
+            <a href="#contact" className="mt-4">
+            <button className="flex justify-between hover:scale-105 bg-gradient-to-r from-violet-300 via-violet-400 to-violet-700 text-white font-bold py-2 px-4 rounded-full drop-shadow-md">
+            ✨Contact me✨</button></a>
     </div>
     )
 }
